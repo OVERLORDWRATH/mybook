@@ -2,79 +2,80 @@ import React, { useState } from "react";
 import "./styles.css";
 
 const book = {
-  javascript: [
-    { name: "Eloquent JavaScript", rating: "4/5" },
-    { name: "You Don't Know JS", rating: "3.5/5" }
+  Action: [
+    { name: "Naruto", rating: "4/5" },
+    { name: "My Hero Academia", rating: "5/5" },
+    { name: "One Punch Man", rating: "5/5" }
   ],
 
-  fiction: [
+  Comedy: [
     {
-      name: " The Lord of the Rings",
-      rating: "4/5"
+      name: " Gintama",
+      rating: "5/5"
     },
     {
-      name: "Harry Potter and the Sorcerer's Stone",
+      name: "Konusuba",
       rating: "4.5/5"
     },
     {
-      name: "The BFG",
+      name: "The Devil as a Part-Timer",
       rating: "4.5/5"
     }
   ],
-  business: [
+  Magic: [
     {
-      name: "The 4-Hour Workweek",
+      name: "Little Witch Academia",
       rating: "4/5"
     },
     {
-      name: "Rich Dad, Poor Dad",
+      name: "Overlord",
       rating: "4.5/5"
     },
     {
-      name: "Think and Grow Rich",
+      name: "Akashic Records of Bastard Magic Instructor",
       rating: "5/5"
     }
   ],
-  Travel: [
+  mystery: [
     {
-      name: "The Art of Travel",
+      name: "Hyouka",
       rating: "4.5/5"
     },
     {
-      name: "The Alchemist",
-      rating: "4.5/5"
+      name: "Terror in Resonance",
+      rating: "5/5"
     },
     {
-      name: "Lands of Lost Borders: A Journey on the Silk Road",
+      name: "Death Note",
       rating: "4/5"
     }
   ],
-  Psychology: [
+  Psychic: [
     {
-      name: "The Person and the Situation: Perspectives of Social Psychology",
+      name: "Mob Psycho 100",
       rating: "4/5"
     },
     {
-      name: "Thinking, Fast and Slow",
+      name: "Erased",
       rating: "4.5/5"
     },
     {
-      name: "Blink: The Power of Thinking Without Thinking",
+      name: "Hinamatsuri",
       rating: "5/5"
     }
   ]
 };
 
 export default function App() {
-  const [genre, setGenre] = useState("Psychology");
+  const [genre, setGenre] = useState("Action");
   function genreClickHandler(genre) {
     setGenre(genre);
   }
   return (
     <div className="App">
-      <h1> 📚 goodbooks </h1>
+      <h1> 📚 My Anime List </h1>
       <p style={{ fontSize: "smaller" }}>
-        Checkout my favorite books. Select a genre to get started
+        Checkout my favorite anime. Select a genre to get started
       </p>
 
       <div>
