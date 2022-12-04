@@ -18,6 +18,10 @@
 
 [Live Project](https://7825h.csb.app/)
 
+## Screenshots
+
+![anime](https://user-images.githubusercontent.com/52795506/205506987-2465bc26-b0bb-4a19-8b26-65edca5ab35f.jpg)
+
 ## Connect with me
 
 - [LinkedIn](https://www.linkedin.com/in/priyanshu844/)
